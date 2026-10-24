@@ -12,9 +12,9 @@ workspace "NicheKiller"
     startproject "NicheKiller"
 
 project "NicheKiller"
-    kind "ConsoleApp"
-    language "C"
-    cdialect "C23"
+    kind "WindowedApp"
+    language "C++"
+    cppdialect "C++26"
     -- staticruntime "off"
 
     targetdir ("%{wks.location}/build/bin/%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}")
@@ -22,8 +22,8 @@ project "NicheKiller"
 
     files
     {
-       "src/**.h",
-       "src/**.c",
+       "src/**.hpp",
+       "src/**.cpp",
     }
 
     includedirs
