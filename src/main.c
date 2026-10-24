@@ -2,7 +2,7 @@
 
 int main(int argc, char *argv[])
 {
-    printf("niche\n");
+    printf("niche2\n");
 
     return 0;
 }
